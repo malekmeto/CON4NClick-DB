@@ -47,6 +47,16 @@
     { "Key": "Alt + Tab", "Action": "تبديل النوافذ" },
     { "Key": "Ctrl + Shift + Esc", "Action": "مدير المهام (Task Manager)" }
   ]
+   {
+      "ProcessName": "PowerToys.AlwaysOnTop",
+      "DisplayName": "Microsoft PowerToys",
+      "Shortcuts": [
+        { "Key": "Win + Ctrl + T", "Action": "تثبيت النافذة في المقدمة (Always on Top)" },
+        { "Key": "Win + Shift + C", "Action": "منتقي الألوان (Color Picker)" },
+        { "Key": "Win + Shift + L", "Action": "قفل الفأرة (Mouse Crosshairs)" }
+      ]
+    },
 
 }
+
 
