@@ -23,7 +23,7 @@
       "ProcessName": "explorer",
       "DisplayName": "Windows Explorer",
       "Shortcuts": [
-        { "Key": "Ctrl + C", "Action": "نسخ الملف تجربة1 (Copy)" },
+        { "Key": "Ctrl + C", "Action": "نسخ الملف (Copy)" },
         { "Key": "Ctrl + V", "Action": "لصق الملف (Paste)" },
         { "Key": "Ctrl + X", "Action": "قص الملف (Cut)" },
         { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
@@ -32,7 +32,7 @@
     }
   ],
   "WindowsShortcuts": [
-    { "Key": "Ctrl + C", "Action": "نسخ النصوص/الملفات تجربة 2 (Copy)" },
+    { "Key": "Ctrl + C", "Action": "نسخ النصوص/الملفات  (Copy)" },
     { "Key": "Ctrl + V", "Action": "لصق (Paste)" },
     { "Key": "Ctrl + X", "Action": "قص (Cut)" },
     { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
@@ -49,3 +49,4 @@
   ]
 
 }
+
