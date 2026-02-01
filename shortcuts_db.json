@@ -1,0 +1,50 @@
+﻿{
+  "Programs": [
+    {
+      "ProcessName": "chrome",
+      "DisplayName": "Google Chrome",
+      "Shortcuts": [
+        { "Key": "Ctrl + T", "Action": "فتح لسان جديد (New Tab)" },
+        { "Key": "Ctrl + Shift + N", "Action": "تصفح خفي (Incognito)" },
+        { "Key": "Ctrl + H", "Action": "سجل التصفح (History)" },
+        { "Key": "Ctrl + J", "Action": "التنزيلات (Downloads)" },
+        { "Key": "Ctrl + Shift + T", "Action": "استعادة لسان مغلق" }
+      ]
+    },
+    {
+      "ProcessName": "discord",
+      "DisplayName": "Discord",
+      "Shortcuts": [
+        { "Key": "Ctrl + Shift + M", "Action": "كتم المايك (Mute Mic)" },
+        { "Key": "Ctrl + Shift + D", "Action": "كتم الصوت والسماع (Deafen)" }
+      ]
+    },
+    {
+      "ProcessName": "explorer",
+      "DisplayName": "Windows Explorer",
+      "Shortcuts": [
+        { "Key": "Ctrl + C", "Action": "نسخ الملف (Copy)" },
+        { "Key": "Ctrl + V", "Action": "لصق الملف (Paste)" },
+        { "Key": "Ctrl + X", "Action": "قص الملف (Cut)" },
+        { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
+        { "Key": "Alt + Enter", "Action": "خصائص الملف (Properties)" }
+      ]
+    }
+  ],
+  "WindowsShortcuts": [
+    { "Key": "Ctrl + C", "Action": "نسخ النصوص/الملفات (Copy)" },
+    { "Key": "Ctrl + V", "Action": "لصق (Paste)" },
+    { "Key": "Ctrl + X", "Action": "قص (Cut)" },
+    { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
+    { "Key": "Ctrl + A", "Action": "تحديد الكل (Select All)" },
+    { "Key": "Alt + F4", "Action": "إغلاق النافذة الحالية" },
+    { "Key": "Win + E", "Action": "فتح المستكشف (File Explorer)" },
+    { "Key": "Win + D", "Action": "إظهار سطح المكتب" },
+    { "Key": "Win + L", "Action": "قفل الجهاز (Lock Screen)" },
+    { "Key": "Win + R", "Action": "نافذة تشغيل (Run)" },
+    { "Key": "Win + S", "Action": "بحث ويندوز (Search)" },
+    { "Key": "Win + Shift + S", "Action": "لقطة شاشة (Screenshot)" },
+    { "Key": "Alt + Tab", "Action": "تبديل النوافذ" },
+    { "Key": "Ctrl + Shift + Esc", "Action": "مدير المهام (Task Manager)" }
+  ]
+}
