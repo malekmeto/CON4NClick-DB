@@ -169,15 +169,24 @@
       "DisplayName": "Visual Studio Code",
       "Shortcuts": [
         { "Key": "Ctrl + Shift + P", "Action": "لوحة الأوامر" },
-        { "Key": "Ctrl + `", "Action": "تيرمينال" }
+        { "Key": "Ctrl + `", "Action": "تيرمينال" },
+        { "Key": "Ctrl + P", "Action": "Go to File" },
+        { "Key": "Ctrl + Shift + F", "Action": "بحث في الملفات" },
+        { "Key": "Ctrl + /", "Action": "Toggle Comment" },
+        { "Key": "Alt + Up", "Action": "تحريك السطر للأعلى" },
+        { "Key": "Alt + Down", "Action": "تحريك السطر للأسفل" }
       ]
     },
     {
       "ProcessName": "devenv",
       "DisplayName": "Visual Studio",
       "Shortcuts": [
-        { "Key": "F5", "Action": "Build & Run" },
-        { "Key": "Ctrl + .", "Action": "إصلاح سريع" }
+        { "Key": "F5", "Action": "تشغيل (Debug)" },
+        { "Key": "Ctrl + .", "Action": "إصلاح سريع" },
+        { "Key": "F10", "Action": "خطوة فوق (Step Over)" },
+        { "Key": "F11", "Action": "خطوة داخل (Step Into)" },
+        { "Key": "F12", "Action": "اذهب للتعريف (Go to Definition)" },
+        { "Key": "Shift + F12", "Action": "بحث عن المراجع (Find References)" }
       ]
     },
     {
@@ -351,6 +360,318 @@
         { "Key": "F2", "Action": "إعادة تسمية" },
         { "Key": "Delete", "Action": "حذف" },
         { "Key": "Shift + Delete", "Action": "حذف نهائي" }
+      ]
+    },
+    {
+      "ProcessName": "mspaint",
+      "DisplayName": "Paint",
+      "Shortcuts": [
+        { "Key": "Ctrl + R", "Action": "تغيير الحجم (Resize)" },
+        { "Key": "Ctrl + E", "Action": "خصائص (Properties)" }
+      ]
+    },
+    {
+      "ProcessName": "cmd",
+      "DisplayName": "Command Prompt",
+      "Shortcuts": [
+        { "Key": "Ctrl + C", "Action": "إلغاء الأمر الحالي (Break)" },
+        { "Key": "Ctrl + V", "Action": "لصق (Paste)" },
+        { "Key": "F7", "Action": "سجل الأوامر (History)" }
+      ]
+    },
+    {
+      "ProcessName": "powershell",
+      "DisplayName": "Windows PowerShell",
+      "Shortcuts": [
+        { "Key": "Ctrl + C", "Action": "إلغاء الأمر (Break)" },
+        { "Key": "Ctrl + R", "Action": "بحث في التاريخ" }
+      ]
+    },
+    {
+      "ProcessName": "WindowsTerminal",
+      "DisplayName": "Windows Terminal",
+      "Shortcuts": [
+        { "Key": "Ctrl + Shift + T", "Action": "لسان جديد" },
+        { "Key": "Ctrl + Shift + W", "Action": "إغلاق لسان" },
+        { "Key": "Ctrl + Tab", "Action": "التنقل بين الألسنة" }
+      ]
+    },
+    {
+      "ProcessName": "Taskmgr",
+      "DisplayName": "Task Manager",
+      "Shortcuts": [
+        { "Key": "Delete", "Action": "إنهاء المهمة (End Task)" }
+      ]
+    },
+    {
+      "ProcessName": "regedit",
+      "DisplayName": "Registry Editor",
+      "Shortcuts": [
+        { "Key": "Ctrl + F", "Action": "بحث (Find)" }
+      ]
+    },
+    {
+      "ProcessName": "AndroidStudio64",
+      "DisplayName": "Android Studio",
+      "Shortcuts": [
+        { "Key": "Shift + F10", "Action": "Run App" },
+        { "Key": "Shift + F9", "Action": "Debug App" },
+        { "Key": "Ctrl + N", "Action": "Go to Class" }
+      ]
+    },
+    {
+      "ProcessName": "pycharm64",
+      "DisplayName": "PyCharm",
+      "Shortcuts": [
+        { "Key": "Shift + F10", "Action": "Run" },
+        { "Key": "Double Shift", "Action": "Search Everywhere" }
+      ]
+    },
+    {
+      "ProcessName": "sublime_text",
+      "DisplayName": "Sublime Text",
+      "Shortcuts": [
+        { "Key": "Ctrl + D", "Action": "تحديد الكلمة التالية" },
+        { "Key": "Ctrl + Shift + L", "Action": "مؤشر متعدد (Multi-Cursor)" }
+      ]
+    },
+    {
+      "ProcessName": "atom",
+      "DisplayName": "Atom",
+      "Shortcuts": [
+        { "Key": "Ctrl + Shift + P", "Action": "Command Palette" }
+      ]
+    },
+    {
+      "ProcessName": "Postman",
+      "DisplayName": "Postman",
+      "Shortcuts": [
+        { "Key": "Ctrl + Enter", "Action": "Send Request" },
+        { "Key": "Ctrl + S", "Action": "Save Request" }
+      ]
+    },
+    {
+      "ProcessName": "3dsmax",
+      "DisplayName": "3ds Max",
+      "Shortcuts": [
+        { "Key": "W", "Action": "Select and Move" },
+        { "Key": "E", "Action": "Select and Rotate" },
+        { "Key": "R", "Action": "Select and Scale" },
+        { "Key": "Alt + W", "Action": "Maximize Viewport" }
+      ]
+    },
+    {
+      "ProcessName": "maya",
+      "DisplayName": "Autodesk Maya",
+      "Shortcuts": [
+        { "Key": "W", "Action": "Move Tool" },
+        { "Key": "E", "Action": "Rotate Tool" },
+        { "Key": "R", "Action": "Scale Tool" },
+        { "Key": "Space", "Action": "Switch Viewport" }
+      ]
+    },
+    {
+      "ProcessName": "Audition",
+      "DisplayName": "Adobe Audition",
+      "Shortcuts": [
+        { "Key": "Space", "Action": "Play/Stop" },
+        { "Key": "F9", "Action": "Spectral Frequency Display" }
+      ]
+    },
+    {
+      "ProcessName": "InDesign",
+      "DisplayName": "Adobe InDesign",
+      "Shortcuts": [
+        { "Key": "W", "Action": "Preview Mode" },
+        { "Key": "Ctrl + D", "Action": "Place Image" }
+      ]
+    },
+    {
+      "ProcessName": "Lightroom",
+      "DisplayName": "Adobe Lightroom",
+      "Shortcuts": [
+        { "Key": "D", "Action": "Develop Module" },
+        { "Key": "G", "Action": "Grid View" },
+        { "Key": "R", "Action": "Crop Tool" }
+      ]
+    },
+    {
+      "ProcessName": "XD",
+      "DisplayName": "Adobe XD",
+      "Shortcuts": [
+        { "Key": "V", "Action": "Select" },
+        { "Key": "T", "Action": "Text" },
+        { "Key": "R", "Action": "Rectangle" }
+      ]
+    },
+    {
+      "ProcessName": "Canva",
+      "DisplayName": "Canva",
+      "Shortcuts": [
+        { "Key": "T", "Action": "Add Text" },
+        { "Key": "R", "Action": "Add Rectangle" }
+      ]
+    },
+    {
+      "ProcessName": "Streamlabs OBS",
+      "DisplayName": "Streamlabs Desktop",
+      "Shortcuts": [
+        { "Key": "F1", "Action": "Go Live" }
+      ]
+    },
+    {
+      "ProcessName": "Audacity",
+      "DisplayName": "Audacity",
+      "Shortcuts": [
+        { "Key": "Space", "Action": "Play/Stop" },
+        { "Key": "R", "Action": "Record" },
+        { "Key": "Shift + R", "Action": "Append Record" }
+      ]
+    },
+    {
+      "ProcessName": "FL64",
+      "DisplayName": "FL Studio",
+      "Shortcuts": [
+        { "Key": "Space", "Action": "Play/Stop" },
+        { "Key": "F5", "Action": "Playlist" },
+        { "Key": "F9", "Action": "Mixer" }
+      ]
+    },
+    {
+      "ProcessName": "Ableton Live",
+      "DisplayName": "Ableton Live",
+      "Shortcuts": [
+        { "Key": "Tab", "Action": "Toggle Session/Arrangement View" },
+        { "Key": "Space", "Action": "Play/Stop" }
+      ]
+    },
+    {
+      "ProcessName": "TeamViewer",
+      "DisplayName": "TeamViewer",
+      "Shortcuts": [
+        { "Key": "Ctrl + Alt + Del", "Action": "Send Ctrl+Alt+Del" }
+      ]
+    },
+    {
+      "ProcessName": "AnyDesk",
+      "DisplayName": "AnyDesk",
+      "Shortcuts": [
+        { "Key": "Ctrl + Alt + Shift + F", "Action": "Fullscreen" }
+      ]
+    },
+    {
+      "ProcessName": "VirtualBox",
+      "DisplayName": "VirtualBox",
+      "Shortcuts": [
+        { "Key": "Right Ctrl", "Action": "Host Key (Release Mouse)" },
+        { "Key": "Right Ctrl + F", "Action": "Fullscreen" }
+      ]
+    },
+    {
+      "ProcessName": "vmware",
+      "DisplayName": "VMware Workstation",
+      "Shortcuts": [
+        { "Key": "Ctrl + Alt", "Action": "Release Mouse" },
+        { "Key": "Ctrl + Alt + Enter", "Action": "Fullscreen" }
+      ]
+    },
+    {
+      "ProcessName": "Docker Desktop",
+      "DisplayName": "Docker Desktop",
+      "Shortcuts": []
+    },
+    {
+      "ProcessName": "Notion",
+      "DisplayName": "Notion",
+      "Shortcuts": [
+        { "Key": "Ctrl + N", "Action": "New Page" },
+        { "Key": "Ctrl + Shift + N", "Action": "New Window" },
+        { "Key": "Ctrl + P", "Action": "Quick Find" }
+      ]
+    },
+    {
+      "ProcessName": "Evernote",
+      "DisplayName": "Evernote",
+      "Shortcuts": [
+        { "Key": "Ctrl + N", "Action": "New Note" }
+      ]
+    },
+    {
+      "ProcessName": "Trello",
+      "DisplayName": "Trello",
+      "Shortcuts": [
+        { "Key": "N", "Action": "Insert New Card" },
+        { "Key": "Space", "Action": "Assign to Me" }
+      ]
+    },
+    {
+      "ProcessName": "Skype",
+      "DisplayName": "Skype",
+      "Shortcuts": [
+        { "Key": "Ctrl + M", "Action": "Mute Microphone" }
+      ]
+    },
+    {
+      "ProcessName": "Outlook",
+      "DisplayName": "Outlook",
+      "Shortcuts": [
+        { "Key": "Ctrl + N", "Action": "New Message" },
+        { "Key": "Ctrl + Enter", "Action": "Send Message" },
+        { "Key": "Ctrl + R", "Action": "Reply" }
+      ]
+    },
+    {
+      "ProcessName": "Thunderbird",
+      "DisplayName": "Mozilla Thunderbird",
+      "Shortcuts": [
+        { "Key": "Ctrl + N", "Action": "New Message" }
+      ]
+    },
+    {
+      "ProcessName": "idman",
+      "DisplayName": "Internet Download Manager",
+      "Shortcuts": [
+        { "Key": "Alt + Q", "Action": "Exit IDM" }
+      ]
+    },
+    {
+      "ProcessName": "uTorrent",
+      "DisplayName": "uTorrent",
+      "Shortcuts": [
+        { "Key": "F2", "Action": "Show Details" }
+      ]
+    },
+    {
+      "ProcessName": "qbittorrent",
+      "DisplayName": "qBittorrent",
+      "Shortcuts": [
+        { "Key": "Ctrl + N", "Action": "Add Torrent Link" }
+      ]
+    },
+    {
+      "ProcessName": "Origin",
+      "DisplayName": "Origin",
+      "Shortcuts": [
+        { "Key": "Shift + F1", "Action": "In-Game Overlay" }
+      ]
+    },
+    {
+      "ProcessName": "Uplay",
+      "DisplayName": "Ubisoft Connect",
+      "Shortcuts": [
+        { "Key": "Shift + F2", "Action": "In-Game Overlay" }
+      ]
+    },
+    {
+      "ProcessName": "Battle.net",
+      "DisplayName": "Battle.net",
+      "Shortcuts": []
+    },
+    {
+      "ProcessName": "GalaxyClient",
+      "DisplayName": "GOG Galaxy",
+      "Shortcuts": [
+        { "Key": "Shift + Tab", "Action": "Overlay" }
       ]
     }
   ],
