@@ -4,296 +4,372 @@
       "ProcessName": "chrome",
       "DisplayName": "Google Chrome",
       "Shortcuts": [
-        { "Key": "Ctrl + T", "Action": "فتح لسان جديد (New Tab)" },
-        { "Key": "Ctrl + Shift + N", "Action": "تصفح خفي (Incognito)" },
-        { "Key": "Ctrl + Shift + T", "Action": "استعادة لسان مغلق" },
-        { "Key": "Ctrl + H", "Action": "سجل التصفح (History)" },
-        { "Key": "Ctrl + J", "Action": "التنزيلات (Downloads)" },
-        { "Key": "Ctrl + Tab", "Action": "التنقل بين الألسنة" }
+        { "Key": "Ctrl + T", "Action": "لسان جديد" },
+        { "Key": "Ctrl + Shift + N", "Action": "تصفح خفي" },
+        { "Key": "Ctrl + Shift + T", "Action": "استعادة لسان" },
+        { "Key": "Ctrl + J", "Action": "التنزيلات" }
       ]
     },
     {
       "ProcessName": "firefox",
       "DisplayName": "Mozilla Firefox",
       "Shortcuts": [
-        { "Key": "Ctrl + T", "Action": "فتح لسان جديد (New Tab)" },
-        { "Key": "Ctrl + Shift + P", "Action": "تصفح خاص (Private)" },
-        { "Key": "Ctrl + Shift + T", "Action": "استعادة لسان مغلق" },
-        { "Key": "Ctrl + J", "Action": "التنزيلات (Downloads)" }
+        { "Key": "Ctrl + T", "Action": "لسان جديد" },
+        { "Key": "Ctrl + Shift + P", "Action": "تصفح خاص" }
       ]
     },
     {
       "ProcessName": "msedge",
       "DisplayName": "Microsoft Edge",
       "Shortcuts": [
-        { "Key": "Ctrl + T", "Action": "فتح لسان جديد" },
-        { "Key": "Ctrl + Shift + N", "Action": "تصفح InPrivate" },
-        { "Key": "Ctrl + Shift + S", "Action": "التقاط الويب (Web Capture)" }
+        { "Key": "Ctrl + Shift + S", "Action": "التقاط الويب" }
       ]
     },
     {
       "ProcessName": "discord",
       "DisplayName": "Discord",
       "Shortcuts": [
-        { "Key": "Ctrl + Shift + M", "Action": "كتم المايك (Mute Mic)" },
-        { "Key": "Ctrl + Shift + D", "Action": "كتم الصوت والسماع (Deafen)" },
-        { "Key": "Ctrl + /", "Action": "إظهار لوحة الاختصارات" },
-        { "Key": "Shift + Esc", "Action": "تحديد الكل كمقروء" }
-      ]
-    },
-    {
-      "ProcessName": "PowerToys.AlwaysOnTop",
-      "DisplayName": "PowerToys (Always On Top)",
-      "Shortcuts": [
-        { "Key": "Win + Ctrl + T", "Action": "تثبيت النافذة في المقدمة" }
-      ]
-    },
-    {
-      "ProcessName": "PowerToys.ColorPicker",
-      "DisplayName": "PowerToys (Color Picker)",
-      "Shortcuts": [
-        { "Key": "Win + Shift + C", "Action": "منتقي الألوان (Color Picker)" }
-      ]
-    },
-    {
-      "ProcessName": "PowerToys.FancyZones",
-      "DisplayName": "PowerToys (FancyZones)",
-      "Shortcuts": [
-        { "Key": "Win + Shift + `", "Action": "تخطيط النوافذ (Layout Editor)" }
-      ]
-    },
-    {
-      "ProcessName": "PowerToys.ImageResizer",
-      "DisplayName": "PowerToys (Image Resizer)",
-      "Shortcuts": [
-        { "Key": "Win + /", "Action": "اختصارات الدليل (Shortcut Guide)" }
-      ]
-    },
-    {
-      "ProcessName": "obs64",
-      "DisplayName": "OBS Studio",
-      "Shortcuts": [
-        { "Key": "F8", "Action": "بدء/إيقاف التسجيل (افتراضي)" },
-        { "Key": "F9", "Action": "بدء/إيقاف البث (افتراضي)" }
-      ]
-    },
-    {
-      "ProcessName": "nvcontainer",
-      "DisplayName": "NVIDIA GeForce Experience",
-      "Shortcuts": [
-        { "Key": "Alt + Z", "Action": "فتح القائمة (Overlay)" },
-        { "Key": "Alt + F9", "Action": "بدء/إيقاف تسجيل الشاشة" },
-        { "Key": "Alt + F10", "Action": "حفظ آخر 5 دقائق (Instant Replay)" },
-        { "Key": "Alt + F1", "Action": "لقطة شاشة (Screenshot)" },
-        { "Key": "Alt + R", "Action": "عرض الأداء (Performance Overlay)" }
-      ]
-    },
-    {
-      "ProcessName": "photoshop",
-      "DisplayName": "Adobe Photoshop",
-      "Shortcuts": [
-        { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
-        { "Key": "Ctrl + Shift + Z", "Action": "إعادة (Redo)" },
-        { "Key": "Ctrl + T", "Action": "تحويل حر (Free Transform)" },
-        { "Key": "Ctrl + J", "Action": "تكرار الطبقة (Duplicate Layer)" },
-        { "Key": "Ctrl + D", "Action": "إلغاء التحديد (Deselect)" },
-        { "Key": "B", "Action": "الفرشاة (Brush Tool)" },
-        { "Key": "V", "Action": "التحريك (Move Tool)" },
-        { "Key": "M", "Action": "التحديد (Marquee Tool)" }
-      ]
-    },
-    {
-      "ProcessName": "illustrator",
-      "DisplayName": "Adobe Illustrator",
-      "Shortcuts": [
-        { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
-        { "Key": "Ctrl + Shift + Z", "Action": "إعادة (Redo)" },
-        { "Key": "V", "Action": "سهم الاختيار (Selection Tool)" },
-        { "Key": "A", "Action": "سهم الاختيار المباشر (Direct Select)" },
-        { "Key": "P", "Action": "أداة البن (Pen Tool)" }
-      ]
-    },
-    {
-      "ProcessName": "premiere",
-      "DisplayName": "Adobe Premiere Pro",
-      "Shortcuts": [
-        { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
-        { "Key": "C", "Action": "أداة القص (Razor Tool)" },
-        { "Key": "V", "Action": "أداة الاختيار (Selection Tool)" },
-        { "Key": "I", "Action": "تحديد البداية (Mark In)" },
-        { "Key": "O", "Action": "تحديد النهاية (Mark Out)" },
-        { "Key": "Space", "Action": "تشغيل/إيقاف (Play/Pause)" }
-      ]
-    },
-    {
-      "ProcessName": "Code",
-      "DisplayName": "Visual Studio Code",
-      "Shortcuts": [
-        { "Key": "Ctrl + Shift + P", "Action": "لوحة الأوامر (Command Palette)" },
-        { "Key": "Ctrl + P", "Action": "فتح ملف بسرعة (Quick Open)" },
-        { "Key": "Ctrl + `", "Action": "فتح/إغلاق التيرمينال (Terminal)" },
-        { "Key": "Ctrl + B", "Action": "إخفاء القائمة الجانبية (Sidebar)" },
-        { "Key": "Alt + Z", "Action": "التفاف النص (Word Wrap)" }
-      ]
-    },
-    {
-      "ProcessName": "devenv",
-      "DisplayName": "Visual Studio 2022",
-      "Shortcuts": [
-        { "Key": "F5", "Action": "بدء التصحيح (Start Debugging)" },
-        { "Key": "Ctrl + F5", "Action": "تشغيل بدون تصحيح" },
-        { "Key": "Ctrl + Shift + B", "Action": "بناء المشروع (Build)" },
-        { "Key": "Ctrl + .", "Action": "إجراءات سريعة (Quick Actions)" }
-      ]
-    },
-    {
-      "ProcessName": "WINWORD",
-      "DisplayName": "Microsoft Word",
-      "Shortcuts": [
-        { "Key": "Ctrl + C", "Action": "نسخ (Copy)" },
-        { "Key": "Ctrl + V", "Action": "لصق (Paste)" },
-        { "Key": "Ctrl + B", "Action": "خط عريض (Bold)" },
-        { "Key": "Ctrl + I", "Action": "خط مائل (Italic)" },
-        { "Key": "Ctrl + U", "Action": "تسطير (Underline)" },
-        { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
-        { "Key": "Ctrl + S", "Action": "حفظ (Save)" }
-      ]
-    },
-    {
-      "ProcessName": "EXCEL",
-      "DisplayName": "Microsoft Excel",
-      "Shortcuts": [
-        { "Key": "Ctrl + C", "Action": "نسخ (Copy)" },
-        { "Key": "Ctrl + V", "Action": "لصق (Paste)" },
-        { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
-        { "Key": "Ctrl + S", "Action": "حفظ (Save)" },
-        { "Key": "F2", "Action": "تعديل الخلية (Edit Cell)" },
-        { "Key": "Alt + Enter", "Action": "سطر جديد داخل الخلية" }
-      ]
-    },
-    {
-      "ProcessName": "POWERPNT",
-      "DisplayName": "Microsoft PowerPoint",
-      "Shortcuts": [
-        { "Key": "F5", "Action": "بدء العرض (Start Slideshow)" },
-        { "Key": "Shift + F5", "Action": "بدء العرض من الشريحة الحالية" }
-      ]
-    },
-    {
-      "ProcessName": "Spotify",
-      "DisplayName": "Spotify",
-      "Shortcuts": [
-        { "Key": "Space", "Action": "تشغيل/إيقاف الموسيقى" },
-        { "Key": "Ctrl + Right", "Action": "الأغنية التالية" },
-        { "Key": "Ctrl + Left", "Action": "الأغنية السابقة" },
-        { "Key": "Ctrl + Up", "Action": "رفع الصوت" },
-        { "Key": "Ctrl + Down", "Action": "خفض الصوت" }
-      ]
-    },
-    {
-      "ProcessName": "Zoom",
-      "DisplayName": "Zoom Meeting",
-      "Shortcuts": [
-        { "Key": "Alt + A", "Action": "كتم/تفعيل الصوت (Mute Audio)" },
-        { "Key": "Alt + V", "Action": "تشغيل/إيقاف الفيديو (Video)" },
-        { "Key": "Alt + S", "Action": "مشاركة الشاشة (Share Screen)" },
-        { "Key": "Alt + Q", "Action": "إنهاء الاجتماع (End Meeting)" }
-      ]
-    },
-    {
-      "ProcessName": "Teams",
-      "DisplayName": "Microsoft Teams",
-      "Shortcuts": [
-        { "Key": "Ctrl + Shift + M", "Action": "كتم/تفعيل المايك (Mute)" },
-        { "Key": "Ctrl + Shift + O", "Action": "تشغيل/إيقاف الفيديو" }
-      ]
-    },
-    {
-      "ProcessName": "WhatsApp",
-      "DisplayName": "WhatsApp Desktop",
-      "Shortcuts": [
-        { "Key": "Ctrl + N", "Action": "محادثة جديدة" },
-        { "Key": "Ctrl + Shift + [", "Action": "المحادثة السابقة" },
-        { "Key": "Ctrl + Shift + ]", "Action": "المحادثة التالية" }
+        { "Key": "Ctrl + Shift + M", "Action": "كتم المايك" },
+        { "Key": "Ctrl + Shift + D", "Action": "كتم الصوت" }
       ]
     },
     {
       "ProcessName": "Telegram",
       "DisplayName": "Telegram Desktop",
       "Shortcuts": [
-        { "Key": "Ctrl + Q", "Action": "خروج من تيليجرام" },
-        { "Key": "Ctrl + W", "Action": "إغلاق المحادثة الحالية" }
+        { "Key": "Ctrl + Q", "Action": "خروج" },
+        { "Key": "Ctrl + W", "Action": "إغلاق المحادثة" }
+      ]
+    },
+    {
+      "ProcessName": "WhatsApp",
+      "DisplayName": "WhatsApp",
+      "Shortcuts": [
+        { "Key": "Ctrl + N", "Action": "محادثة جديدة" }
+      ]
+    },
+    {
+      "ProcessName": "Slack",
+      "DisplayName": "Slack",
+      "Shortcuts": [
+        { "Key": "Ctrl + K", "Action": "انتقال سريع (Quick Switcher)" },
+        { "Key": "Ctrl + U", "Action": "رفع ملف" }
+      ]
+    },
+    {
+      "ProcessName": "Zoom",
+      "DisplayName": "Zoom",
+      "Shortcuts": [
+        { "Key": "Alt + A", "Action": "كتم الصوت" },
+        { "Key": "Alt + V", "Action": "إيقاف الفيديو" },
+        { "Key": "Alt + S", "Action": "مشاركة الشاشة" }
+      ]
+    },
+    {
+      "ProcessName": "Teams",
+      "DisplayName": "Microsoft Teams",
+      "Shortcuts": [
+        { "Key": "Ctrl + Shift + M", "Action": "كتم المايك" }
+      ]
+    },
+    {
+      "ProcessName": "obs64",
+      "DisplayName": "OBS Studio",
+      "Shortcuts": [
+        { "Key": "F8", "Action": "تسجيل (افتراضي)" },
+        { "Key": "F9", "Action": "بث مباشر (افتراضي)" }
       ]
     },
     {
       "ProcessName": "vlc",
       "DisplayName": "VLC Media Player",
       "Shortcuts": [
-        { "Key": "Space", "Action": "تشغيل/إيقاف مؤقت" },
-        { "Key": "F", "Action": "ملء الشاشة (Fullscreen)" },
-        { "Key": "Esc", "Action": "خروج من ملء الشاشة" }
+        { "Key": "Space", "Action": "إيقاف مؤقت" },
+        { "Key": "F", "Action": "ملء الشاشة" }
+      ]
+    },
+    {
+      "ProcessName": "Spotify",
+      "DisplayName": "Spotify",
+      "Shortcuts": [
+        { "Key": "Space", "Action": "تشغيل/إيقاف" },
+        { "Key": "Ctrl + Right", "Action": "التالي" },
+        { "Key": "Ctrl + Left", "Action": "السابق" }
+      ]
+    },
+    {
+      "ProcessName": "iTunes",
+      "DisplayName": "iTunes",
+      "Shortcuts": [
+        { "Key": "Space", "Action": "تشغيل/إيقاف" }
+      ]
+    },
+    {
+      "ProcessName": "photoshop",
+      "DisplayName": "Adobe Photoshop",
+      "Shortcuts": [
+        { "Key": "Ctrl + Z", "Action": "تراجع" },
+        { "Key": "Ctrl + T", "Action": "تحويل حر" },
+        { "Key": "Ctrl + J", "Action": "نسخ الطبقة" },
+        { "Key": "B", "Action": "الفرشاة" },
+        { "Key": "V", "Action": "التحريك" }
+      ]
+    },
+    {
+      "ProcessName": "illustrator",
+      "DisplayName": "Adobe Illustrator",
+      "Shortcuts": [
+        { "Key": "V", "Action": "تحديد" },
+        { "Key": "A", "Action": "تحديد مباشر" },
+        { "Key": "P", "Action": "أداة القلم" }
+      ]
+    },
+    {
+      "ProcessName": "premiere",
+      "DisplayName": "Adobe Premiere Pro",
+      "Shortcuts": [
+        { "Key": "C", "Action": "قص (Razor)" },
+        { "Key": "V", "Action": "تحديد (Select)" },
+        { "Key": "I", "Action": "Mark In" },
+        { "Key": "O", "Action": "Mark Out" }
+      ]
+    },
+    {
+      "ProcessName": "AfterFX",
+      "DisplayName": "Adobe After Effects",
+      "Shortcuts": [
+        { "Key": "Ctrl + D", "Action": "تكرار (Duplicate)" },
+        { "Key": "U", "Action": "إظهار الكي فريم" },
+        { "Key": "Space", "Action": "تشغيل" }
+      ]
+    },
+    {
+      "ProcessName": "blender",
+      "DisplayName": "Blender",
+      "Shortcuts": [
+        { "Key": "G", "Action": "تحريك (Grab)" },
+        { "Key": "S", "Action": "تحجيم (Scale)" },
+        { "Key": "R", "Action": "تدوير (Rotate)" },
+        { "Key": "Tab", "Action": "وضع التعديل (Edit Mode)" },
+        { "Key": "Shift + A", "Action": "إضافة عنصر" }
+      ]
+    },
+    {
+      "ProcessName": "Figma",
+      "DisplayName": "Figma",
+      "Shortcuts": [
+        { "Key": "A", "Action": "Artboard" },
+        { "Key": "R", "Action": "مستطيل" },
+        { "Key": "T", "Action": "نص" },
+        { "Key": "Ctrl + G", "Action": "تجميع (Group)" }
+      ]
+    },
+    {
+      "ProcessName": "Code",
+      "DisplayName": "Visual Studio Code",
+      "Shortcuts": [
+        { "Key": "Ctrl + Shift + P", "Action": "لوحة الأوامر" },
+        { "Key": "Ctrl + `", "Action": "تيرمينال" }
+      ]
+    },
+    {
+      "ProcessName": "devenv",
+      "DisplayName": "Visual Studio",
+      "Shortcuts": [
+        { "Key": "F5", "Action": "Build & Run" },
+        { "Key": "Ctrl + .", "Action": "إصلاح سريع" }
+      ]
+    },
+    {
+      "ProcessName": "idea64",
+      "DisplayName": "IntelliJ IDEA",
+      "Shortcuts": [
+        { "Key": "Shift + Shift", "Action": "بحث في كل مكان" },
+        { "Key": "Ctrl + Space", "Action": "إكمال الكود" }
+      ]
+    },
+    {
+      "ProcessName": "unity",
+      "DisplayName": "Unity Editor",
+      "Shortcuts": [
+        { "Key": "Q", "Action": "Pan" },
+        { "Key": "W", "Action": "Move" },
+        { "Key": "E", "Action": "Rotate" },
+        { "Key": "R", "Action": "Scale" },
+        { "Key": "Ctrl + P", "Action": "Play" }
+      ]
+    },
+    {
+      "ProcessName": "UE4Editor",
+      "DisplayName": "Unreal Engine 4",
+      "Shortcuts": [
+        { "Key": "Alt + P", "Action": "Play" },
+        { "Key": "Esc", "Action": "Stop" }
+      ]
+    },
+    {
+      "ProcessName": "UnrealEditor",
+      "DisplayName": "Unreal Engine 5",
+      "Shortcuts": [
+        { "Key": "Alt + P", "Action": "Play" },
+        { "Key": "Esc", "Action": "Stop" }
+      ]
+    },
+    {
+      "ProcessName": "WINWORD",
+      "DisplayName": "Microsoft Word",
+      "Shortcuts": [
+        { "Key": "Ctrl + B", "Action": "Bold" },
+        { "Key": "Ctrl + S", "Action": "Save" }
+      ]
+    },
+    {
+      "ProcessName": "EXCEL",
+      "DisplayName": "Microsoft Excel",
+      "Shortcuts": [
+        { "Key": "F2", "Action": "تعديل الخلية" }
+      ]
+    },
+    {
+      "ProcessName": "POWERPNT",
+      "DisplayName": "PowerPoint",
+      "Shortcuts": [
+        { "Key": "F5", "Action": "بدء العرض" }
+      ]
+    },
+    {
+      "ProcessName": "Acrobat",
+      "DisplayName": "Adobe Acrobat",
+      "Shortcuts": [
+        { "Key": "Ctrl + F", "Action": "بحث" }
+      ]
+    },
+    {
+      "ProcessName": "notepad",
+      "DisplayName": "Notepad",
+      "Shortcuts": [
+        { "Key": "Ctrl + S", "Action": "حفظ" }
+      ]
+    },
+    {
+      "ProcessName": "notepad++",
+      "DisplayName": "Notepad++",
+      "Shortcuts": [
+        { "Key": "Ctrl + D", "Action": "تكرار السطر" }
+      ]
+    },
+    {
+      "ProcessName": "Calculator",
+      "DisplayName": "Calculator",
+      "Shortcuts": [
+        { "Key": "Alt + 1", "Action": "قياسي" }
       ]
     },
     {
       "ProcessName": "SnippingTool",
       "DisplayName": "Snipping Tool",
       "Shortcuts": [
-        { "Key": "Ctrl + N", "Action": "قصة جديدة (New Snip)" },
-        { "Key": "Win + Shift + S", "Action": "اختصار النظام للقص" }
+        { "Key": "Ctrl + N", "Action": "قصة جديدة" }
       ]
     },
     {
-      "ProcessName": "Calculator",
-      "DisplayName": "Windows Calculator",
+      "ProcessName": "nvcontainer",
+      "DisplayName": "NVIDIA Overlay",
       "Shortcuts": [
-        { "Key": "Alt + 1", "Action": "الوضع القياسي" },
-        { "Key": "Alt + 2", "Action": "الوضع العلمي" }
+        { "Key": "Alt + Z", "Action": "القائمة" },
+        { "Key": "Alt + F9", "Action": "تسجيل" },
+        { "Key": "Alt + F10", "Action": "إعادة فورية" },
+        { "Key": "Alt + R", "Action": "أداء" }
       ]
     },
     {
-      "ProcessName": "Steam",
+      "ProcessName": "PowerToys.AlwaysOnTop",
+      "DisplayName": "PowerToys (Always On Top)",
+      "Shortcuts": [
+        { "Key": "Win + Ctrl + T", "Action": "تثبيت النافذة" }
+      ]
+    },
+    {
+      "ProcessName": "PowerToys.ColorPicker",
+      "DisplayName": "PowerToys (Color Picker)",
+      "Shortcuts": [
+        { "Key": "Win + Shift + C", "Action": "سحب اللون" }
+      ]
+    },
+    {
+      "ProcessName": "steam",
       "DisplayName": "Steam",
       "Shortcuts": [
-        { "Key": "Shift + Tab", "Action": "Steam Overlay (داخل اللعبة)" },
-        { "Key": "F12", "Action": "لقطة شاشة (Screenshot)" }
+        { "Key": "Shift + Tab", "Action": "Steam Overlay" },
+        { "Key": "F12", "Action": "Screenshot" }
+      ]
+    },
+    {
+      "ProcessName": "EpicGamesLauncher",
+      "DisplayName": "Epic Games",
+      "Shortcuts": []
+    },
+    {
+      "ProcessName": "Valorant",
+      "DisplayName": "Valorant",
+      "Shortcuts": [
+        { "Key": "B", "Action": "Buy Menu" },
+        { "Key": "Tab", "Action": "Scoreboard" }
+      ]
+    },
+    {
+      "ProcessName": "League of Legends",
+      "DisplayName": "League of Legends",
+      "Shortcuts": [
+        { "Key": "D", "Action": "Summoner Spell 1" },
+        { "Key": "F", "Action": "Summoner Spell 2" }
+      ]
+    },
+    {
+      "ProcessName": "WinRAR",
+      "DisplayName": "WinRAR",
+      "Shortcuts": [
+        { "Key": "Alt + E", "Action": "Extract" }
+      ]
+    },
+    {
+      "ProcessName": "7zFM",
+      "DisplayName": "7-Zip",
+      "Shortcuts": [
+        { "Key": "F5", "Action": "Copy to" }
       ]
     },
     {
       "ProcessName": "explorer",
       "DisplayName": "Windows Explorer",
       "Shortcuts": [
-        { "Key": "Ctrl + C", "Action": "نسخ الملف (Copy)" },
-        { "Key": "Ctrl + V", "Action": "لصق الملف (Paste)" },
-        { "Key": "Ctrl + X", "Action": "قص الملف (Cut)" },
-        { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
-        { "Key": "Alt + Enter", "Action": "خصائص الملف (Properties)" },
-        { "Key": "Delete", "Action": "حذف للمهملات" },
-        { "Key": "Shift + Delete", "Action": "حذف نهائي" },
-        { "Key": "F2", "Action": "إعادة تسمية (Rename)" }
+        { "Key": "Ctrl + C", "Action": "نسخ" },
+        { "Key": "Ctrl + V", "Action": "لصق" },
+        { "Key": "Ctrl + X", "Action": "قص" },
+        { "Key": "Ctrl + Z", "Action": "تراجع" },
+        { "Key": "Alt + Enter", "Action": "خصائص" },
+        { "Key": "F2", "Action": "إعادة تسمية" },
+        { "Key": "Delete", "Action": "حذف" },
+        { "Key": "Shift + Delete", "Action": "حذف نهائي" }
       ]
     }
   ],
   "WindowsShortcuts": [
-    { "Key": "Ctrl + C", "Action": "نسخ النصوص/الملفات (Copy)" },
-    { "Key": "Ctrl + V", "Action": "لصق (Paste)" },
-    { "Key": "Ctrl + X", "Action": "قص (Cut)" },
-    { "Key": "Ctrl + Z", "Action": "تراجع (Undo)" },
-    { "Key": "Ctrl + Y", "Action": "إعادة (Redo)" },
-    { "Key": "Ctrl + A", "Action": "تحديد الكل (Select All)" },
-    { "Key": "Alt + F4", "Action": "إغلاق النافذة الحالية" },
-    { "Key": "Win + E", "Action": "فتح المستكشف (File Explorer)" },
-    { "Key": "Win + D", "Action": "إظهار سطح المكتب" },
-    { "Key": "Win + L", "Action": "قفل الجهاز (Lock Screen)" },
-    { "Key": "Win + R", "Action": "نافذة تشغيل (Run)" },
-    { "Key": "Win + S", "Action": "بحث ويندوز (Search)" },
-    { "Key": "Win + Shift + S", "Action": "لقطة شاشة (Screenshot)" },
-    { "Key": "Win + V", "Action": "سجل الحافظة (Clipboard History)" },
-    { "Key": "Win + .", "Action": "لوحة الإيموجي (Emoji Panel)" },
-    { "Key": "Win + Tab", "Action": "عرض المهام (Task View)" },
-    { "Key": "Alt + Tab", "Action": "تبديل النوافذ" },
-    { "Key": "Ctrl + Shift + Esc", "Action": "مدير المهام (Task Manager)" },
-    { "Key": "Win + I", "Action": "الإعدادات (Settings)" },
-    { "Key": "Win + X", "Action": "قائمة المهام السريعة" },
-    { "Key": "Win + A", "Action": "مركز الإشعارات (Action Center)" }
+    { "Key": "Ctrl + C", "Action": "نسخ" },
+    { "Key": "Ctrl + V", "Action": "لصق" },
+    { "Key": "Ctrl + X", "Action": "قص" },
+    { "Key": "Ctrl + Z", "Action": "تراجع" },
+    { "Key": "Ctrl + A", "Action": "تحديد الكل" },
+    { "Key": "Alt + F4", "Action": "إغلاق" },
+    { "Key": "Win + E", "Action": "المستكشف" },
+    { "Key": "Win + D", "Action": "سطح المكتب" },
+    { "Key": "Win + L", "Action": "قفل" },
+    { "Key": "Win + R", "Action": "Run" },
+    { "Key": "Win + S", "Action": "بحث" },
+    { "Key": "Win + Shift + S", "Action": "لقطة شاشة" },
+    { "Key": "Win + V", "Action": "الحافظة" },
+    { "Key": "Win + .", "Action": "إيموجي" },
+    { "Key": "Alt + Tab", "Action": "تبديل" },
+    { "Key": "Ctrl + Shift + Esc", "Action": "مدير المهام" }
   ]
 }
